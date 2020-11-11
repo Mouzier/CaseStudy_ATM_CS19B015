@@ -22,7 +22,7 @@ THIS IS THE INSTRUCTIONS ON THE FEATURES OF THE ATM PROGRAM AND HOW TO USE IT.
 	3. 	OTP GENERATION
 	4. 	MONEY TRANSFER FROM ONE ACCOUNT TO ANOTHER (NEED TO ONLY ENTER THE ACCOUNT TO WHICH MONEY IS TO BE TRANSFERRED)
 	5. 	CHANGE OF PIN IS POSSIBLE
-	6.	TEMPORARILY STORES ALL TRANSACTION THAT HAPPENS WHEN THE PROGRAM IS RUNNING. (I AM STILL FIGURING OUT FILES IN JAVA)
+	6.	TEMPORARILY STORES ALL TRANSACTION THAT HAPPENS WHEN THE PROGRAM IS RUNNING. (I AM STILL FIGURING OUT FILES IN JAVA. ALL DATA WILL BE ERASED WHEN PROGRAM 		TERMINATES)
 	
 	ADDITIONAL FEATURE
 	1. 	EXTRA CHARGES IF ACCOUNT IS FROM ANOTHER BANK. THIS ATM BELONGS TO SBI.
@@ -47,7 +47,7 @@ THIS IS THE INSTRUCTIONS ON THE FEATURES OF THE ATM PROGRAM AND HOW TO USE IT.
 		d. See their balance
 		e. Change the pin
 		f. Block account	NOTE : IF AN ACCOUNT IS BLOCKED, IT CAN BE UNBLOCKED ONLY BY THE ADMIN
-
+		g. See current transaction happened
 
 	2.Admin
 		In order to access the functionalities, the admin must input their login id (String - case sensitive) and password (String - case sensitive)
@@ -60,5 +60,6 @@ THIS IS THE INSTRUCTIONS ON THE FEATURES OF THE ATM PROGRAM AND HOW TO USE IT.
 		f. Change atm balance
 		g. See atm balance
 		h. Shutdown system
+		g. Change block status of customer
 
 	When the system is shutdown, all the previous record in the database is deleted and updated by the latest values of the system.
